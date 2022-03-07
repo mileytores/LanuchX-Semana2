@@ -122,11 +122,17 @@ grid-template-columns: repeat(5, 1fr);
     text-align: center;
     color: white;
 }
-/*
-<footer id="pie">
-    <Label>Dirección: Caintra 129, Barrio Topochico, Monterrey, N.L.</Label>
-    <label for="telefono">Teléfono: 81 23 20 74 11</label>
-    <label for="horario">Horarios de Atención: Lunes a Viernes de 08:00 AM a 06:00 P.M.</label>
-</footer>
-
-*/
+#contacto{
+    float: center;
+    text-align: center;
+    font-size: 30;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#pastelero{
+    text-align: center;
+}
+#tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
