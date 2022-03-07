@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+</head>
+
+<body>
+    <header>
+        <img src="user.png" align="right" width="25" height="25">
+        <img src="logo.png" align="left" width="170" height="100">
+        <h1 >Bienvenidos a Pasteleria Mimi</h1>
+    </header>
+    <nav align="right"><ul>
+        <li><a href="#">Pasteles</a></li>
+        <li><a href="#">Reposteria</a></li>
+        <li><a href="#">Accesorios</a></li>
+        <li><a href="#">Quienes Somos</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul></nav>
+
+    <h1 align="center">Personaliza tu compra</h1>
+    <div id="compra-imagen">
+        <img src="pastel2.jpg" alt="">
+    </div>
+
+    <div id="compra-formulario">
+        <div id="formulario">
+        <form>
+            <label>Nombre:</label>
+            <input type="text"><br><br>
+            <label>Apellido:</label>
+            <input type="text"><br><br>
+            <label>Direccion:</label>
+            <input type="text"><br><br>
+            <label>Email:</label>
+            <input type="email"><br><br>
+            <label for="pastel">Selecciones el tipo de Pastel</label>
+            <select name="pastel">
+                <option></option>
+                <option value="3 Leches">3 Leches</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Napolitanos">Napolitano</option>
+                <option value="Fondant">Fondant</option>
+            </select><br><br>
+            <label for="pastel">Selecciones Los Accesorios</label>
+            <select name="pastel">
+                <option></option>
+                <option>Velas</option>
+                <option>Gorros</option>
+                <option>Globos</option>
+                <option>Serpentinas</option>
+            </select><br><br>
+            <label for="pastel">Selecciones fecha de entrega</label><br><br>
+            <input type="date" name="fecha"><br><br><br>
+            <input type="button" value="Enviar Pedido" onclick="alert('Pedido Enviado');"><br><br>
+        </form>
+        </div>
+    </div>
+    <br><br>
+
+</body>
+
+
+
+</html>
